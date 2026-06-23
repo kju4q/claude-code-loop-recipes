@@ -7,11 +7,13 @@ All review comments addressed + tests passing + PR ready for merge or merge conf
 
 ## How to Run
 
+**Option A (Quick):** Paste this directly:
+
 ```
-/goal Address all review comments on PR #123, rebase if needed, ensure tests pass, and update the PR. Stop when the PR is ready for final review or merged.
+/goal Address all review comments on PR #123, rebase if needed, ensure tests pass, and update the PR. Stop when the PR is ready for final review.
 ```
 
-## Recommended Schedule
+**Option B (Reusable):** Save the goal above as a custom command called `/babysit-pr`, then run:
 
 ```
 /loop 10m /babysit-pr 123
@@ -21,3 +23,4 @@ All review comments addressed + tests passing + PR ready for merge or merge conf
 - Add a verifier step that runs tests after changes.
 - Use browser control if the PR has UI changes.
 - Set a max iteration count to avoid runaway loops.
+- You perform the final merge — the loop prepares the PR.
