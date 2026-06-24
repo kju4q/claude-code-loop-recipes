@@ -14,6 +14,19 @@ Before running any loop, define **how it will prove success**.
 
 This is what turns a vague agent into a reliable system.
 
+## Before You Run a Loop
+
+Loops can burn tokens quickly. Follow these guardrails:
+
+- Always set a stop condition (`/goal` with a clear end state).
+- Watch the first iteration before walking away.
+- Check `/cost` periodically.
+- Start with lower-frequency loops until you're comfortable.
+
+## Requirements
+
+Requires **Claude Code v2.1.72+** and a paid plan.
+
 ## How to Use These Recipes
 
 1. Copy the recipe into Claude Code.

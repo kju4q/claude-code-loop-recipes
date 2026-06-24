@@ -13,7 +13,8 @@ Curated sources behind loop engineering.
   → Search: "Lenny Rachitsky Boris Cherny Claude Code"
 
 - **Addy Osmani**  
-  Writes about agentic workflows and the shift in engineering roles.
+  Writes about agentic workflows and the shift in engineering roles.  
+  → https://addyosmani.com/blog/loop-engineering
 
 - **Community Discussions**  
   Threads on hierarchical loops, builder + verifier separation, and durable state (`CLAUDE.md` + skills).
