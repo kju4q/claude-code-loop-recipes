@@ -38,6 +38,7 @@ Requires **Claude Code v2.1.72+** and a paid plan.
 - [Babysit PRs](./recipes/babysit-pr.md)
 - [Fix Failing Tests](./recipes/fix-failing-tests.md)
 - [Nightly Cleanup](./recipes/nightly-cleanup.md)
+- [Repo Health Check](./recipes/repo-health-check.md)
 - [Review and Merge](./recipes/review-and-merge.md)
 
 ## Go Deeper
